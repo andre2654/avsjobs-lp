@@ -40,7 +40,7 @@ const Header = () => {
       <header
         className={`header top-0 left-0 z-40 flex w-full items-center bg-transparent ${
           sticky
-            ? "!fixed !z-[9999] !bg-background-image-white !bg-opacity-80 shadow-sticky backdrop-blur-sm !transition dark:!bg-background-image-primary dark:!bg-opacity-20"
+            ? "!fixed !z-[9999] !bg-background-image-white !bg-opacity-80 shadow-sticky backdrop-blur-sm !transition dark:!bg-background-image-primary dark:!bg-opacity-20 min-h-[60px] md:min-h-[80px]"
             : "absolute"
         }`}
         style={{
@@ -53,7 +53,7 @@ const Header = () => {
               <Link
                 href="/"
                 className={`header-logo block w-full ${
-                  sticky ? "py-5 lg:py-2" : "py-8"
+                  sticky ? "p-3 rounded-lg bg-white dark:bg-transparent" : "py-8"
                 } `}
               >
                 <Image
@@ -110,7 +110,7 @@ const Header = () => {
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
-                            className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
+                            className={`flex py-2 px-3 rounded-lg bg-white dark:transparent text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex`}
                           >
                             {menuItem.title}
                           </Link>
@@ -118,7 +118,7 @@ const Header = () => {
                           <>
                             <a
                               onClick={() => handleSubmenu(index)}
-                              className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0"
+                              className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex"
                             >
                               {menuItem.title}
                               <span className="pl-3">
