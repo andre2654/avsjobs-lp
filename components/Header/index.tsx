@@ -110,7 +110,7 @@ const Header = () => {
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
-                            className={`flex py-2 px-3 rounded-lg bg-white dark:transparent text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex`}
+                            className={`flex py-2 px-3 rounded-lg bg-white dark:bg-transparent text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex`}
                           >
                             {menuItem.title}
                           </Link>
