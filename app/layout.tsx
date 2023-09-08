@@ -6,6 +6,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import "../styles/index.css";
+import Head from "./head";
 
 export default function RootLayout({
   children,
@@ -14,11 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
+      <Head />
 
       <body className="dark:bg-black">
         <Providers>
