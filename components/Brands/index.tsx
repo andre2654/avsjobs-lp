@@ -4,33 +4,33 @@ import Image from "next/image";
 const brandsData: Brand[] = [
   {
     id: 1,
-    name: "UIdeck",
-    href: "https://uideck.com",
-    image: "/images/brands/uideck.svg",
+    name: "UTFPR",
+    href: "https://www.utfpr.edu.br",
+    image: "/images/brands/utfpr.svg",
   },
   {
     id: 2,
-    name: "Tailgrids",
-    href: "https://tailgrids.com",
-    image: "/images/brands/tailgrids.svg",
+    name: "Grupo Itamarathy",
+    href: "https://www.grupoitamarathy.com.br",
+    image: "/images/brands/itamarathy.png",
   },
   {
     id: 3,
-    name: "Lineicons",
-    href: "https://lineicons.com",
-    image: "/images/brands/lineicons.svg",
+    name: "UTFPR",
+    href: "https://www.utfpr.edu.br",
+    image: "/images/brands/utfpr.svg",
   },
   {
     id: 4,
-    name: "GrayGrids",
-    href: "https://graygrids.com",
-    image: "/images/brands/graygrids.svg",
+    name: "UTFPR",
+    href: "https://www.utfpr.edu.br",
+    image: "/images/brands/utfpr.svg",
   },
   {
     id: 5,
-    name: "TailAdmin",
-    href: "https://tailadmin.com",
-    image: "/images/brands/tailadmin.svg",
+    name: "UTFPR",
+    href: "https://www.utfpr.edu.br",
+    image: "/images/brands/utfpr.svg",
   },
 ];
 
