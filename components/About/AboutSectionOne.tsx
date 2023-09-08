@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Áreas de atuação e expertise"
+                paragraph="A AVSJobs é uma empresa de tecnologia que possui especialistas nas mais diversas áreas de atuação. Nossos profissionais são capacitados para desenvolver soluções de alta qualidade e que atendam às necessidades de nossos clientes."
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Aplicações WEB" />
+                    <List text="Aplicações Mobile" />
+                    <List text="PLONE" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Blockchain" />
+                    <List text="Microserviços" />
+                    <List text="Inteligência Artificial" />
                   </div>
                 </div>
               </div>

@@ -6,8 +6,8 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Sobre nós"
+        description="A AVSJobs é uma empresa de tecnologia que desenvolve soluções sob medida para o mercado de trabalho."
       />
       <AboutSectionOne />
       <AboutSectionTwo />

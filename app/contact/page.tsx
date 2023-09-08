@@ -5,8 +5,8 @@ const ContactPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Contact Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Página de contato"
+        description="O nosso atendimento é 24 horas por dia, 7 dias por semana. Entre em contato conosco a qualquer momento e nós responderemos o mais breve possível."
       />
 
       <Contact />

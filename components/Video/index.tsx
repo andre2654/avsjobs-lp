@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
-import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
+import { ReactCompareSlider, ReactCompareSliderImage, ReactCompareSliderHandle } from 'react-compare-slider';
 // import ModalVideo from "react-modal-video";
 
 const Video = () => {
@@ -63,6 +63,7 @@ const Video = () => {
                 itemTwo={
                   <ReactCompareSliderImage src="/images/video/utfpr_nova.png" srcSet="/images/video/utfpr_nova.png" alt="Image two" />
                 }
+                handle={<ReactCompareSliderHandle buttonStyle={{color: '#090c28'}} linesStyle={{color: '#fab000'}}/>}
               />
               </div>
             </div>

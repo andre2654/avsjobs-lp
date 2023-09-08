@@ -36,21 +36,19 @@ const brandsData: Brand[] = [
 
 const Brands = () => {
   return (
-    <section className="pt-16">
-      <div className="container">
-        <div className="-mx-4 flex flex-wrap">
-          <div className="w-full px-4">
-            <div
-              className="wow fadeInUp flex flex-wrap items-center justify-center rounded-md bg-dark p-6 dark:bg-primary dark:bg-opacity-5"
-              data-wow-delay=".1s
-              "
-            >
-              {brandsData.map((brand) => (
-                <SingleBrand key={brand.id} brand={brand} />
-              ))}
-            </div>
+    <section className="pt-16 w-full">
+      <div className="w-full">
+        <div className="flex flex-wrap w-full">
+          <div
+            className="w-full wow fadeInUp flex flex-wrap items-center justify-center bg-black p-6 dark:bg-primary dark:bg-opacity-5"
+            data-wow-delay=".1s
+            "
+          >
+            {brandsData.map((brand) => (
+              <SingleBrand key={brand.id} brand={brand} />
+            ))}
           </div>
-        </div>
+      </div>
       </div>
     </section>
   );

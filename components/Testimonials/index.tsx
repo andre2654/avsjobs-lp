@@ -5,10 +5,10 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Daniel Amorim",
+    designation: "Gerente de TI @Grupo Itamarathy",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "A equipe da AVSJobs é muito competente e atenciosa. Sempre que precisamos de alguma coisa, eles estão prontos para nos atender.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
@@ -17,7 +17,7 @@ const testimonialData: Testimonial[] = [
     name: "Devid Weilium",
     designation: "Founder @UIdeck",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Nossos membros estão tão impressionados. É intuitivo. É limpo. É livre de distrações. Se você está construindo uma comunidade.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
@@ -26,7 +26,7 @@ const testimonialData: Testimonial[] = [
     name: "Lethium Frenci",
     designation: "Founder @Lineicons",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Realmente gostei da facilidade de uso e da funcionalidade do aplicativo. Eu recomendaria a qualquer um que queira criar um.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Depoimentos"
+          paragraph="Veja o que os nossos clientes dizem sobre nós."
           center
         />
 
